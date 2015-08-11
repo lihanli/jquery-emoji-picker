@@ -160,7 +160,7 @@
       if(this.settings.position == 'right'){
         elOffset.left += this.$el.outerWidth() - this.settings.width;
       }
-      elOffset.top += this.$el.outerHeight();
+      elOffset.top += this.$icon.outerHeight();
 
       // Step 3
       var diffOffset = {
